@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Man International Public School | Hajipur, Vaishali</title>
+<style>
+:root{--gold:#c79a28;--navy:#102a43;--light:#f7f9fc;--text:#243b53}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:white}
+header{background:linear-gradient(135deg,#0b2033,#173b58);color:white;position:sticky;top:0;z-index:20;box-shadow:0 2px 12px #0002}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:10px 18px}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:58px;height:58px;object-fit:contain;background:white;border-radius:50%}
+.brand strong{font-size:19px}.brand small{display:block;color:#e8d08b;margin-top:3px}
+nav a{color:white;text-decoration:none;margin:0 7px;font-size:14px}
+nav a:hover{color:#ffd96b}.lang{border:1px solid #fff8;background:#ffffff18;color:white;border-radius:20px;padding:7px 12px;cursor:pointer}
+.hero{min-height:620px;display:flex;align-items:center;background:linear-gradient(90deg,#0b2033e8,#0b203399),url('logo.png') center/cover no-repeat}
+.hero-inner{max-width:1150px;margin:auto;padding:70px 22px;color:white;width:100%}
+.badge{display:inline-block;background:#c79a28;color:#102a43;padding:7px 13px;border-radius:30px;font-weight:bold}
+h1{font-size:clamp(38px,7vw,72px);line-height:1.03;margin:18px 0 12px;max-width:800px}
+.hero p{font-size:20px;max-width:680px;line-height:1.6}
+.btn{display:inline-block;padding:13px 20px;border-radius:7px;background:var(--gold);color:#102a43;text-decoration:none;font-weight:bold;margin:7px 7px 0 0}
+.btn.outline{background:transparent;color:white;border:1px solid white}
+section{padding:75px 20px}.container{max-width:1150px;margin:auto}
+.title{text-align:center;margin-bottom:38px}.title h2{font-size:34px;margin:0;color:var(--navy)}.title p{color:#627d98}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{padding:28px;border-radius:14px;background:white;box-shadow:0 8px 28px #102a4314;border:1px solid #e6edf3}
+.card .icon{font-size:34px}.card h3{color:var(--navy)}
+.about{background:var(--light)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about-box{background:#fff;padding:30px;border-radius:16px;box-shadow:0 8px 30px #102a4314}
+.notice{background:var(--navy);color:white}.notice-list{display:grid;gap:12px}.notice-item{background:#ffffff12;padding:16px;border-left:4px solid var(--gold);border-radius:7px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.gallery div{height:190px;border-radius:14px;background:linear-gradient(135deg,#102a43,#c79a28);display:flex;align-items:center;justify-content:center;color:white;font-size:18px;font-weight:bold;text-align:center;padding:20px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact-box{padding:30px;background:var(--light);border-radius:14px}.contact-box a{color:#1565c0}
+footer{background:#081827;color:#cbd5e1;text-align:center;padding:28px 15px}footer strong{color:#ffd96b}
+#hi{display:none}
+@media(max-width:800px){nav{display:none}.cards,.about-grid,.contact-grid,.gallery{grid-template-columns:1fr}.hero{min-height:560px}.brand strong{font-size:15px}.brand small{font-size:11px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+  <div class="brand"><img src="logo.png" alt="School Logo"><div><strong>Man International Public School</strong><small>Hajipur, Vaishali, Bihar</small></div></div>
+  <nav><a href="#home">Home</a><a href="#about">About</a><a href="#academics">Academics</a><a href="#gallery">Gallery</a><a href="#notice">Notice</a><a href="#admission">Admission</a><a href="#contact">Contact</a></nav>
+  <button class="lang" onclick="toggleLang()">हिंदी / English</button>
+</div>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="hero-inner">
+<span class="badge">MAN INTERNATIONAL PUBLIC SCHOOL</span>
+<div id="en">
+<h1>Learn. Grow. Lead.</h1>
+<p>Welcome to Man International Public School, Hajipur, Vaishali, Bihar — a place where students learn with confidence, discipline and curiosity.</p>
+<a class="btn" href="#about">Explore School</a><a class="btn outline" href="#contact">Contact Us</a>
+</div>
+<div id="hi">
+<h1>सीखें। बढ़ें। नेतृत्व करें।</h1>
+<p>मैन इंटरनेशनल पब्लिक स्कूल, हाजीपुर, वैशाली, बिहार में आपका स्वागत है — जहाँ विद्यार्थी आत्मविश्वास, अनुशासन और जिज्ञासा के साथ सीखते हैं।</p>
+<a class="btn" href="#about">स्कूल के बारे में</a><a class="btn outline" href="#contact">संपर्क करें</a>
+</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="container">
+<div class="title"><h2>About Our School</h2><p>हमारा विद्यालय / Our School</p></div>
+<div class="about-grid">
+<div><h2>Education with values</h2><p>Our aim is to provide a supportive learning environment that encourages academic growth, good character, creativity and responsible citizenship.</p><p>हमारा उद्देश्य विद्यार्थियों को गुणवत्तापूर्ण शिक्षा के साथ अच्छे संस्कार, रचनात्मकता और जिम्मेदारी की भावना देना है।</p></div>
+<div class="about-box"><h3>School Information</h3><p><b>School:</b> Man International Public School</p><p><b>Location:</b> Hajipur, Vaishali, Bihar</p><p><b>Phone:</b> 8893053332</p><p><b>Medium:</b> Hindi & English</p></div>
+</div>
+</div>
+</section>
+
+<section id="academics">
+<div class="container">
+<div class="title"><h2>Why Choose Us</h2><p>हमारी विशेषताएँ</p></div>
+<div class="cards">
+<div class="card"><div class="icon">📚</div><h3>Quality Education</h3><p>Concept-based learning and a strong academic foundation.</p></div>
+<div class="card"><div class="icon">🎯</div><h3>Student Development</h3><p>Activities that support confidence, creativity and communication.</p></div>
+<div class="card"><div class="icon">🌱</div><h3>Values & Discipline</h3><p>Focus on respect, responsibility, discipline and good habits.</p></div>
+</div>
+</div>
+</section>
+
+
+<section id="gallery" class="about">
+<div class="container">
+<div class="title"><h2>School Gallery</h2><p>विद्यालय की झलकियाँ / School Highlights</p></div>
+<div class="gallery">
+<div>🏫 School Campus</div>
+<div>👨‍🏫 Teachers & Students</div>
+<div>🎓 Annual Function</div>
+<div>📚 Classroom Activities</div>
+<div>🏆 Sports & Events</div>
+<div>🌱 Educational Activities</div>
+</div>
+</div>
+</section>
+
+<section id="admission">
+<div class="container">
+<div class="title"><h2>Admission</h2><p>प्रवेश के लिए संपर्क करें</p></div>
+<div class="about-box" style="max-width:800px;margin:auto;text-align:center">
+<h3>Admissions Open</h3>
+<p>For admission details, eligibility and school visit information, contact Man International Public School.</p>
+<a class="btn" href="tel:8893053332">📞 Call for Admission</a>
+<a class="btn" href="https://wa.me/918893053332" target="_blank">💬 WhatsApp</a>
+</div>
+</div>
+</section>
+
+<section id="notice" class="notice">
+<div class="container">
+<div class="title"><h2 style="color:white">Notice Board</h2><p style="color:#d9e2ec">महत्वपूर्ण सूचनाएँ / Important Notices</p></div>
+<div class="notice-list">
+<div class="notice-item">📢 School admission information will be updated here.</div>
+<div class="notice-item">📅 School events and holidays will be announced here.</div>
+<div class="notice-item">📝 परीक्षा एवं अन्य महत्वपूर्ण सूचनाएँ यहाँ जोड़ी जा सकती हैं।</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="title"><h2>Contact Us</h2><p>हमसे संपर्क करें</p></div>
+<div class="contact-grid">
+<div class="contact-box"><h3>Man International Public School</h3><p>📍 Hajipur, Vaishali, Bihar</p><p>📞 <a href="tel:8893053332">8893053332</a></p><p>🌐 Hindi & English Website</p></div>
+<div class="contact-box"><h3>Quick Message</h3><p>For admission or school-related enquiries, please contact the school at the number above.</p><a class="btn" href="tel:8893053332">Call School</a></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer><strong>Man International Public School</strong><br>Hajipur, Vaishali, Bihar<br><small>© 2026 All Rights Reserved</small></footer>
+<script>
+function toggleLang(){
+ const en=document.getElementById('en'), hi=document.getElementById('hi');
+ const showHi=hi.style.display!=='block';
+ hi.style.display=showHi?'block':'none'; en.style.display=showHi?'none':'block';
+}
+</script>
+
+<a href="https://wa.me/918893053332" target="_blank" aria-label="WhatsApp"
+style="position:fixed;right:18px;bottom:18px;background:#25D366;color:white;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:27px;box-shadow:0 5px 18px #0004;z-index:50">☘</a>
+</body>
+
+</html>
